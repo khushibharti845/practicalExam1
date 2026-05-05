@@ -1,0 +1,19 @@
+# practicalExam1
+Problem 3: REST API for Student Management (CRUD
+with Express)
+Task:
+Create REST APIs without database (use in-memory array):
+Student Object:
+{
+"id": Number,
+"name": String,
+"marks": Number
+}
+APIs:
+● POST /students → Add student
+● GET /students → Get all students
+● PUT /students/:id → Update student
+● DELETE /students/:id → Delete student
+Constraints:
+● Validate input (name required, marks ≥ 0)
+● Return proper HTTP status codes
